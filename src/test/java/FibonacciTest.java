@@ -26,7 +26,7 @@ public class FibonacciTest {
     }
 
     @Test(expected = NumberFormatException.class)
-    public void shouldGetExceptionForLengthBelowThenZero() {
+    public void shouldGetAnExceptionForLengthLessThanZero() {
         // when
         new Fibonacci().getFibanacciList(-1);
 
