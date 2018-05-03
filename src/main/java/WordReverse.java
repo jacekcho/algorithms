@@ -1,6 +1,6 @@
 public class WordReverse {
 
-    public String reverse(String word) {
+    public String invert(String word) {
         String revertedWord = "";
         int lastIndex = word.length() - 1;
 
