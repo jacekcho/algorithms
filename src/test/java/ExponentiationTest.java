@@ -9,7 +9,7 @@ public class ExponentiationTest {
         int base = 2;
         int power = 256;
 
-        //when
+        // when
         boolean isBaseOfThePower = new Exponentiation().isBaseOfThePower(base, power);
 
         // then
