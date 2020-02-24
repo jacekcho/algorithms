@@ -9,10 +9,10 @@ public class FibonacciTest {
     public void shouldGetProperListForSevenNumbers() {
         // when
         ArrayList<Integer> fibanacciList = new Fibonacci()
-                .getFibanacciList(7);
+                .getFibanacciList(8);
 
         // then
-        Assertions.assertThat(fibanacciList).containsExactly(1, 2, 3, 5, 8, 13);
+        Assertions.assertThat(fibanacciList).containsExactly(0, 1, 1, 2, 3, 5, 8, 13);
     }
 
     @Test
